@@ -1,0 +1,13 @@
+#This Code is from a question on CodingBat (http://codingbat.com/prob/p189616)
+
+
+def count_evens(nums):
+  count = 0
+  for number in nums:
+    if number % 2 == 0:
+      count = count + 1
+      
+    elif number % 2 > 0:
+      continue 
+    
+  return count
