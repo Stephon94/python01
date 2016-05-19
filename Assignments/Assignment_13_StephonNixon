@@ -1,0 +1,11 @@
+import re
+
+Fname = raw_input("Enter file name: ")
+F = open(Fname)
+
+for line in F:
+	numbers = re.findall("[0-9]+", line)
+
+numbers = map(int, numbers)
+
+print sum(numbers)
