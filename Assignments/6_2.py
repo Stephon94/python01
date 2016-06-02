@@ -1,4 +1,4 @@
 text = "X-DSPAM-Confidence:    0.8475";
-number = text[text.find("0"):]
+numbers = text[text.find("0"):]
 
-print number
+print numbers
