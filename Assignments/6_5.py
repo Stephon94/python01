@@ -1,4 +1,4 @@
-Fname = raw_input("Enter file name: ")
-fh = open(Fname)
+fname = raw_input("Enter file name: ")
+fh = open(fname)
 
 print fh.upper
